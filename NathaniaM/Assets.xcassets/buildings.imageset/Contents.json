@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "6-view-of-sanaa-city-old-town-architecture-skyline-in-yemen-jacek-malipan.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
