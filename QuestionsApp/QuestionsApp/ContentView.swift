@@ -42,18 +42,18 @@ struct ContentView: View {
                     .padding(.top, 10.0)
                 
                     .toolbar {
-                    NavigationLink(destination: SecondView()) {
+                    NavigationLink(destination: ContentView()) {
                         Text("Home")
                             .foregroundColor(Color(red: 0.0, green: 0.7, blue: 0.5, opacity: 1.0))
                             .underline()
                             
                     }
-                    NavigationLink(destination: ThirdView()) {
+                    NavigationLink(destination: SecondView()) {
                             Text("About")
                             .foregroundColor(Color(red: 0.0, green: 0.7, blue: 0.5, opacity: 1.0))
                             .underline()
                     }
-                    NavigationLink(destination: FourthView()) {
+                    NavigationLink(destination: ThirdView()) {
                             Text("Contact")
                             .foregroundColor(Color(red: 0.0, green: 0.7, blue: 0.5, opacity: 1.0))
                             .underline()
@@ -69,14 +69,13 @@ struct ContentView: View {
                     .padding(.all, 10.0)
                     
                 NavigationStack {
-                    NavigationLink(destination: Choice1()) {
-                        Button(action: {}) {
-                            Text("Make Your Selection")
-                                .padding()
-                                .foregroundColor(.white)
-                                .background(.green)
-                                .cornerRadius(100)
+                    NavigationLink(destination: FourthView()) {
+                        Button("Make Your Selection") {
                         }
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(.green)
+                        .cornerRadius(100)
                         
                     }
             }
